@@ -1,11 +1,23 @@
-<div align="center">
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+# LabMatch AI - Smart Researcher Assistant
 
-  <h1>Built with AI Studio</h2>
+A high-performance research matching platform powered by Google Gemini API.
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+## Enhanced Features
+1. **PDF Text Extraction**: Students can now upload their CV as a PDF or text file for instant AI analysis.
+2. **Dynamic Progress Tracking**: A visual top-bar indicates exactly which stage of the application process the user is in.
+3. **Student-Centric Email Engine**: Generates 2-paragraph application emails using a "Direct Student" tone—concise, confident, and professional.
+4. **Massive Search Capability**: Scans for 30+ faculty members per search using Google Search grounding.
+5. **Tiered Laboratory Matching**: Automatically categorizes matches into High Alignment, Strong Relevance, and Potential tiers.
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+## Technical Details
+- **Frontend**: React 19, Tailwind CSS.
+- **AI**: Gemini 3 Flash (Analysis & Search), Gemini 3 Pro (Drafting).
+- **Processing**: `PDF.js` for client-side document reading.
+- **Tone**: Optimized prompts to produce respectful yet modern academic communication.
 
-</div>
+## Quick Start
+1. Provide a Google AI Studio API Key in your environment.
+2. Upload your CV (PDF/TXT).
+3. Search for your target institution.
+4. Review tiered matches and generate your personalized application drafts.
